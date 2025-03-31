@@ -1,5 +1,5 @@
-# 使用一个基础镜像，这里以 OpenJDK 11 为例，你可以根据你的应用需求选择合适的 Java 版本
-FROM openjdk:11-jre-slim
+# 使用 OpenJDK 8 作为基础镜像
+FROM openjdk:8-jre-alpine
 
 # 设置工作目录
 WORKDIR /app
